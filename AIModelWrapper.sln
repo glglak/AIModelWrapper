@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D2C41E2-9103-4576-8228-57577FDB5015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIModelWrapper", "src\AIModelWrapper\AIModelWrapper.csproj", "{C65713C1-E52C-4472-B612-A24C32D9E64E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6D9DA9D7-370D-4BC0-ACED-9D253B8717A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIModelWrapper.UnitTests", "tests\AIModelWrapper.UnitTests\AIModelWrapper.UnitTests.csproj", "{A5BCE7B3-B320-4930-97C5-8EF06D8E5E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIModelWrapper.IntegrationTests", "tests\AIModelWrapper.IntegrationTests\AIModelWrapper.IntegrationTests.csproj", "{9DB47A79-EF04-4745-AEF7-7409D7D4E66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIModelWrapper.Benchmarks", "tests\AIModelWrapper.Benchmarks\AIModelWrapper.Benchmarks.csproj", "{95F359D7-C4CF-4711-84E9-E83C78190288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{3D45397A-7242-4381-A7E6-7B4258CCA033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIModelWrapper.Samples", "samples\AIModelWrapper.Samples\AIModelWrapper.Samples.csproj", "{D476C2DA-C080-47CE-88AF-17F5839ACCFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C65713C1-E52C-4472-B612-A24C32D9E64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65713C1-E52C-4472-B612-A24C32D9E64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65713C1-E52C-4472-B612-A24C32D9E64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65713C1-E52C-4472-B612-A24C32D9E64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5BCE7B3-B320-4930-97C5-8EF06D8E5E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5BCE7B3-B320-4930-97C5-8EF06D8E5E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5BCE7B3-B320-4930-97C5-8EF06D8E5E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5BCE7B3-B320-4930-97C5-8EF06D8E5E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB47A79-EF04-4745-AEF7-7409D7D4E66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB47A79-EF04-4745-AEF7-7409D7D4E66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB47A79-EF04-4745-AEF7-7409D7D4E66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB47A79-EF04-4745-AEF7-7409D7D4E66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F359D7-C4CF-4711-84E9-E83C78190288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F359D7-C4CF-4711-84E9-E83C78190288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F359D7-C4CF-4711-84E9-E83C78190288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F359D7-C4CF-4711-84E9-E83C78190288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D476C2DA-C080-47CE-88AF-17F5839ACCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D476C2DA-C080-47CE-88AF-17F5839ACCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D476C2DA-C080-47CE-88AF-17F5839ACCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D476C2DA-C080-47CE-88AF-17F5839ACCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C65713C1-E52C-4472-B612-A24C32D9E64E} = {6D2C41E2-9103-4576-8228-57577FDB5015}
+		{A5BCE7B3-B320-4930-97C5-8EF06D8E5E40} = {6D9DA9D7-370D-4BC0-ACED-9D253B8717A5}
+		{9DB47A79-EF04-4745-AEF7-7409D7D4E66C} = {6D9DA9D7-370D-4BC0-ACED-9D253B8717A5}
+		{95F359D7-C4CF-4711-84E9-E83C78190288} = {6D9DA9D7-370D-4BC0-ACED-9D253B8717A5}
+		{D476C2DA-C080-47CE-88AF-17F5839ACCFD} = {3D45397A-7242-4381-A7E6-7B4258CCA033}
+	EndGlobalSection
+EndGlobal
