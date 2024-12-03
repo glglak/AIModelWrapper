@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "visualstudioexcode.intellicode",
+        "pkief.material-icon-theme",
+        "usernamehw.errorlens",
+        "aaron-bond.better-comments",
+        "fernandoescolar.vscode-solution-explorer",
+        "fudge.auto-using",
+        "kreativ-software.csharpextensions",
+        "humao.rest-client",
+        "eamodio.gitlens"
+    ]
+}
